@@ -21,7 +21,7 @@ before_install:
 script:
  - docker run -e CI=true sutirthabagchi21/multi-client npm test
 
-deploye:
+deploy:
   provider: script
   script: bash ./deploy.sh
   on:
